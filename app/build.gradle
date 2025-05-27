@@ -44,3 +44,7 @@ jar {
 run {
     standardInput = System.in
 }
+dependencies {
+    implementation files('libs/algs4.jar')
+}
+
